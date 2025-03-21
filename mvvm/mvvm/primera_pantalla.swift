@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+
 @main
-struct PrimeraPantalla: App {
+struct PrimeraPantalla: App{
     
     @State var controlador_basico = VistaModeloBasico()
+    
     var body: some Scene{
         WindowGroup(id: "nombre"){
             ContentView()
@@ -17,4 +19,3 @@ struct PrimeraPantalla: App {
         }
     }
 }
- 
